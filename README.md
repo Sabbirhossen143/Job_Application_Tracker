@@ -13,3 +13,9 @@ Example : const element = document.getElementById("header");
 
 
 Example : const items = document.getElementsByClassName("card");
+## querySelector() :
+- Selects the first element that matches a CSS selector.
+- Very flexible because it supports any valid CSS selector.
+
+
+Example : const firstCard = document.querySelector(".card");
