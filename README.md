@@ -19,3 +19,30 @@ Example : const items = document.getElementsByClassName("card");
 
 
 Example : const firstCard = document.querySelector(".card");
+
+# 2. How to Create and Insert a New Element into the DOM 
+## First, create the element. <br>
+const newDiv = document.createElement("div");
+## Secondly, add content or attributes. <br>
+newDiv.textContent = "Hello World!";
+newDiv.classList.add("box");
+## Thirdly, insert it into the DOM. <br>
+document.body.appendChild(newDiv);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
