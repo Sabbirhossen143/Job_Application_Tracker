@@ -96,10 +96,15 @@ function updateDashboard(){
   document.getElementById("allCount").innerText = jobs.length;
 }
 
-function switchTab(tab){
+function switchTab(event, tab){
   currentTab = tab;
-  document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+
+  document.querySelectorAll(".tab").forEach(t =>
+    t.classList.remove("active")
+  );
+
   event.target.classList.add("active");
+
   renderJobs();
 }
 
