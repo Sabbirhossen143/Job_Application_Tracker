@@ -5,20 +5,20 @@
 - Since IDs should be unique, it always returns either one element or null.
 
   
-Example : const element = document.getElementById("header");
+**Example :** const element = document.getElementById("header");
 ## getElementsByClassName()
 - It Selects elements that share the same class name.
 - It Returns a live HTMLCollection (updates automatically if DOM changes).
 - we must loop through it to access individual elements.
 
 
-Example : const items = document.getElementsByClassName("card");
+**Example :** const items = document.getElementsByClassName("card");
 ## querySelector() :
 - It selects the first element that matches a CSS selector.
 - It is very flexible because it supports any valid CSS selector.
 
 
-Example : const firstCard = document.querySelector(".card");
+**Example :** const firstCard = document.querySelector(".card");
 
 # 2. How to Create and Insert a New Element into the DOM 
 ## First, create the element. <br>
@@ -53,7 +53,7 @@ It is Useful because
 - It does NOT stop event bubbling.
 
 
-Example: <br>
+**Example:** <br>
 form.addEventListener("submit", function(event) {
   event.preventDefault();
 });
@@ -62,7 +62,7 @@ form.addEventListener("submit", function(event) {
 - It prevents bubbling.
 
 
-Example: <br>
+**Example:** <br>
 button.addEventListener("click", function(event) {
   event.stopPropagation();
 });
