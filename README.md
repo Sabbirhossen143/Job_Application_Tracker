@@ -29,8 +29,9 @@ newDiv.classList.add("box");
 ## Thirdly, insert it into the DOM. <br>
 document.body.appendChild(newDiv);
 
-
-
+# 3. What is Event Bubbling? How Does It Work?
+## Event Bubbling :
+Event Bubbling is a behavior in JavaScript where an event starts from the target element and then moves upward through its parent elements.
 
 
 
