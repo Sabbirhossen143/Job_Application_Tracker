@@ -1,5 +1,5 @@
 # 1. Difference Between getElementById, getElementsByClassName, and querySelector / querySelectorAll
-## getElementById().
+## getElementById():
 - It Selects one element based on its unique id.
 - It Returns a single element object.
 - Since IDs should be unique, it always returns either one element or null.
@@ -47,8 +47,25 @@ It is Useful because
 - It works for dynamically added elements
 - It keeps code cleaner and more organized
 
+# 5. Difference Between preventDefault() and stopPropagation():
+## preventDefault():
+- It stops the default browser behavior.
+- It does NOT stop event bubbling.
 
 
+Example: <br>
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+});
+## stopPropagation():
+- It stops the event from moving up (or down) the DOM tree.
+- It prevents bubbling.
+
+
+Example: <br>
+button.addEventListener("click", function(event) {
+  event.stopPropagation();
+});
 
 
 
