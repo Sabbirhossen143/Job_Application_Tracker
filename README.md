@@ -38,7 +38,14 @@ Standard DOM events actually go through a three-step journey. <br>
 **2. Target Phase:** The event reaches the target element where it triggers any handlers attached directly to that element. <br>
 **3. Bubbling Phase:** After reaching the target element, the event bubbles up back through the parent elements. <br>
 
+# 4. What is Event Delegation? Why Is It Useful?
+## Event Delegation :
+Event Delegation is a technique where instead of adding event listeners to multiple child elements, you add a single event listener to their parent.
 
+It is Useful because 
+- It improves performance (fewer event listeners)
+- It works for dynamically added elements
+- It keeps code cleaner and more organized
 
 
 
