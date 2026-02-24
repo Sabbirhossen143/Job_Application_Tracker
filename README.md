@@ -5,11 +5,11 @@
 - Since IDs should be unique, it always returns either one element or null.
 
   
-Example :
-const element = document.getElementById("header");
+Example : const element = document.getElementById("header");
 ## getElementsByClassName()
 - It Selects elements that share the same class name.
 - It Returns a live HTMLCollection (updates automatically if DOM changes).
 - we must loop through it to access individual elements.
 
-  Example : const items = document.getElementsByClassName("card");
+
+Example : const items = document.getElementsByClassName("card");
