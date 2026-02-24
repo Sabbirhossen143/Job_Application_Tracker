@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HireTrack - Job Application Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Job Application Tracker</h1>
+
+<div class="dashboard">
+  <div class="dashboard-card">
+    <h2 id="allCount">8</h2>
+    <p>Total</p>
+  </div>
+  <div class="dashboard-card">
+    <h2 id="interviewCount">0</h2>
+    <p>Interview</p>
+  </div>
+  <div class="dashboard-card">
+    <h2 id="rejectedCount">0</h2>
+    <p>Rejected</p>
+  </div>
+</div>
+<hr class="hrr">
+<div class="section-header">
+  <h2>Available Jobs</h2>
+  <h3 id="tabCount">8 Jobs</h3>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('All')">All</div>
+  <div class="tab" onclick="switchTab('Interview')">Interview</div>
+  <div class="tab" onclick="switchTab('Rejected')">Rejected</div>
+</div>
+
+<div class="cards" id="cardsContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
