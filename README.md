@@ -33,10 +33,10 @@ document.body.appendChild(newDiv);
 ## Event Bubbling :
 Event Bubbling is a behavior in JavaScript where an event starts from the target element and then moves upward through its parent elements.
 ## How It Works:
-Standard DOM events actually go through a three-step journey.
-** 1. Capturing Phase:** The event starts from the root of the document and propagates down to the target element.
-### 2. Target Phase: The event reaches the target element where it triggers any handlers attached directly to that element.
-### 3. Bubbling Phase: After reaching the target element, the event bubbles up back through the parent elements.
+Standard DOM events actually go through a three-step journey. <br>
+**1. Capturing Phase:** The event starts from the root of the document and propagates down to the target element.
+**2. Target Phase:** The event reaches the target element where it triggers any handlers attached directly to that element.
+**3. Bubbling Phase:** After reaching the target element, the event bubbles up back through the parent elements.
 
 
 
