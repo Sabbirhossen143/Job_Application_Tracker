@@ -43,6 +43,7 @@ function renderJobs(){
           </div>
           </div>
           <p><strong>${job.companyName}</strong></p>
+          <br>
           <p>${job.location} | ${job.type}</p>
           <p>Salary: ${job.salary}</p>
 <span class="badge ${
